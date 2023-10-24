@@ -9,6 +9,6 @@ cancel_time = input()
 
 # Tính thời gian từ lúc start booking tới lúc cancel booking
 
-
+print(start_time)
 
 
