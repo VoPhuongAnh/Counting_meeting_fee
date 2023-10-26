@@ -1,0 +1,31 @@
+<!DOCTYPE html> #html:5
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Hour Counting</title>
+</head>
+
+<body>
+    <h1>Calculating Booking fee</h1>
+    <h2>The prompt() Method</h2>
+
+    <p>Enter the booking time to calculate the fee.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            let person = prompt("Please enter your name", "Harry Potter");
+            if (person != null) {
+                document.getElementById("demo").innerHTML =
+                    "Hello " + person + "! How are you today?";
+            }
+        }
+    </script>
+</body>
+
+</html>
